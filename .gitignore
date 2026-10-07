@@ -1,0 +1,165 @@
+# =========================
+# .NET / Visual Studio
+# =========================
+
+**/bin/
+**/obj/
+
+.vs/
+.vscode/
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+
+# =========================
+# .NET User Secrets
+# =========================
+
+**/appsettings.Local.json
+**/appsettings.*.Local.json
+
+# User secrets
+secrets.json
+
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+**/logs/
+
+
+# =========================
+# NuGet
+# =========================
+
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+
+# =========================
+# Test Results
+# =========================
+
+TestResults/
+**/TestResults/
+*.trx
+
+
+# =========================
+# Coverage
+# =========================
+
+coverage/
+.coverage
+.coveragexml
+
+
+# =========================
+# Docker
+# =========================
+
+docker-compose.override.yml
+.docker/
+
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+
+# =========================
+# Python / Jupyter
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.ipynb_checkpoints/
+
+.venv/
+venv/
+env/
+ENV/
+
+*.pyo
+*.pyd
+
+.pytest_cache/
+.mypy_cache/
+
+
+# =========================
+# OS generated files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# Linux
+*~
+
+# Windows
+Desktop.ini
+
+
+# =========================
+# Build / temporary files
+# =========================
+
+*.tmp
+*.temp
+*.cache
+
+
+# =========================
+# Database / local data
+# =========================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Local SQL Server files
+*.mdf
+*.ldf
+
+
+# =========================
+# Certificates / Keys
+# =========================
+
+*.pfx
+*.p12
+*.pem
+*.key
+*.crt
+
+
+# =========================
+# ASP.NET
+# =========================
+
+wwwroot/lib/
+
+# Local development HTTPS certificates
+**/https/
